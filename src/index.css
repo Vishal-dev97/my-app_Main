@@ -1,0 +1,41 @@
+.centered-text {
+    text-align: center;
+    color: blue; 
+  } 
+
+
+ /* StockInfo.css */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  /* StockInfo.css */
+/* Define styles for the red arrow */
+.red-arrow {
+    color: red; /* Set the arrow color to red */
+    font-size: 20px; /* Customize arrow size */
+  }
+  
+  /* Define styles for the green arrow */
+  .green-arrow {
+    color: green; /* Set the arrow color to green */
+    font-size: 20px; /* Customize arrow size */
+  }
+  
+  
