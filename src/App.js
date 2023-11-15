@@ -14,6 +14,11 @@ import {  Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import StockInfo from './StockInfo';
+import TradingViewWidget from './TradingViewWidget';
+
+
+
+
 
 function App() {
 
@@ -355,18 +360,19 @@ const data =
     <Route exact path="about" element={<About/>} />
 
     <Route exact path="users" element={
- <div className='container mt-5 '> 
-<div className='text-end'><input type="text" onChange={handleFilter}></input></div>
+//  <div className='container mt-5 '> 
+// <div className='text-end'><input type="text" onChange={handleFilter}></input></div>
 
-      <Datatable
-        columns={columns}
-        data={records}
-        selectableRows
-        fixedHeader
-        pagination
+//       <Datatable
+//         columns={columns}
+//         data={records}
+//         selectableRows
+//         fixedHeader
+//         pagination
          
-      />
-      </div>
+//       />
+//       </div>
+       <TradingViewWidget/>
       
   
    
@@ -376,10 +382,11 @@ const data =
  <div className="centered-text"> <h1>Stock Information</h1></div>
   
       
-      <StockInfo 
+      {/* <StockInfo 
       selectableRows
       fixedHeader
-      pagination data={mdata} />
+      pagination data={mdata} /> */}
+      <TradingViewWidget/> 
 
 </>
   
