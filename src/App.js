@@ -372,7 +372,9 @@ const data =
          
 //       />
 //       </div>
-       <TradingViewWidget/>
+
+    <div  style={{ height: "100%", width: "100%" }}><TradingViewWidget/></div>
+       
       
   
    
